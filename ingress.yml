@@ -12,7 +12,7 @@ spec:
   - host: k8-index.joshmc.xyz     
     http:
       paths:
-      - path: /
+      - path: 
         backend:
           serviceName: index-service
           servicePort: http
